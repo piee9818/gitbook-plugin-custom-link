@@ -26,7 +26,7 @@
     }
   },
   "main": "index.js",
-  "name": "gitbook-plugin-custom-link",
+  "name": "custom-link",
   "scripts": {},
   "version": "0.0.1"
 }
