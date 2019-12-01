@@ -1,6 +1,6 @@
 require(["gitbook", "jQuery"], function(gitbook, $) {
     gitbook.events.bind('start', function (e, config) {
-        var conf = config['edit-link'];
+        var conf = config['custom-link'];
         var newBase = conf.new.base;
         var newLabel = conf.new.label;
         var lang = gitbook.state.innerLanguage;
