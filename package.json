@@ -1,0 +1,32 @@
+{
+  "dependencies": {},
+  "description": "custom link",
+  "devDependencies": {},
+  "directories": {},
+  "engines": {
+    "gitbook": ">=2.5.0"
+  },
+  "gitbook": {
+    "properties": {
+      "new": {
+        "base": {
+          "required": true,
+          "title": "new link",
+          "type": "string"
+        },
+        "label": {
+          "default": "new link",
+          "title": "new link",
+          "type": [
+            "string",
+            "object"
+          ]
+        }
+      }
+    }
+  },
+  "main": "index.js",
+  "name": "gitbook-plugin-custom-link",
+  "scripts": {},
+  "version": "0.0.1"
+}
